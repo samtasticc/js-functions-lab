@@ -76,11 +76,30 @@ should return 'johnsmith@example.com'.
 Complete the exercise in the space below:
 */
 
-// function generateEmail('samantha.henesy', 'gmail.com') {
-//     // recieving "syntax error: unexpected string" so even when I console.log i don't get anything because JS wont read past line 77. 
-//     // this is the third excercise this i've had something "unexpected" and google has not been helpful.
+// function generateEmail(name, dotCom) {
+//     console.log('samantha.henesy', '@gmail.com')
+//     // it returns "samantha.henesy @gmail.com", how do I remove the space?
 // }
 
 // console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
 
+/*
+Exercise 5: greetUser()
+
+Define a function called greetUser. It should take a name and a 
+time of day (morning, afternoon, evening) and return a personalized 
+greeting.
+
+Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
+
+Complete the exercise in the space below:
+*/
+
+// function greetUser(timeOfDay, name) {
+//     console.log(`Good ${timeOfDay}, ${name}`);
+// }
+// greetUser('morning', 'Sam')
+
+// console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
+// i got the correct response (good morning, Sam), then the backwords response (good Sam, morning), and undefined in the console. 
 
