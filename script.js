@@ -103,3 +103,21 @@ Complete the exercise in the space below:
 // console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
 // i got the correct response (good morning, Sam), then the backwords response (good Sam, morning), and undefined in the console. 
 
+/*
+Exercise 6: maxOfThree()
+
+Define a function, maxOfThree. It should accept three numbers 
+and return the largest among them.
+
+Example: maxOfThree(17, 4, 9) should return 17.
+
+Complete the exercise in the space below:
+*/
+
+// function maxOfThree (num1, num2, num3) {
+
+// }
+// // i couldn't figure this one out. googling it resulted in a lot of stuff about arrays, which wasn't covered yet and
+// // i did not want to move ahead. the only other way i could find was using Math.max() which we also didn't cover.
+
+// console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
