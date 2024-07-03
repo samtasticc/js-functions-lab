@@ -8,15 +8,15 @@ If they're equal, return either one.
 Exercise 1 has been completed for you:
 */
 
-const maxOfTwoNumbers = (x, y) => {
-    if (x >= y) {
-        return x;
-    } else {
-        return y;
-    }
-}
+// const maxOfTwoNumbers = (x, y) => {
+//     if (x >= y) {
+//         return x;
+//     } else {
+//         return y;
+//     }
+// }
 
-console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9));
+// console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9));
 
 
 /*
@@ -30,14 +30,16 @@ Example: isAdult(21) should return 'Adult'.
 Complete the exercise in the space below:
 */
 
-function isAdult() {
-    if (adult = 18)
-        console.log('Adult') 
-    // } else {
-    //     console.log('Minor')       
-}
+// function isAdult() {
+//     if (adult = 18)
+//         console.log('Adult') 
+//     // } else {
+//     //     console.log('Minor')       
+// }
 
-console.log('Exercise 2 Result:', isAdult(21)); // i changed my code so many times and i received various syntax errors. when my code did work, i received a bool (true) instead of the intended output. my current code keeps telling me "else" is unexpected.
+// console.log('Exercise 2 Result:', isAdult(21)); 
+// // i changed my code so many times and i received various syntax errors. when my code did work, i received a bool (true)
+// // instead of the intended output. my current code keeps telling me "else" is unexpected.
 
 /*
 Exercise 3: isCharAVowel()
@@ -52,15 +54,33 @@ Example: isCharAVowel('a') should return true.
 Complete the exercise in the space below:
 */
 
-function isCharAVowel(vowel) {
-    if (vowel === "a", "e", "i", "o", "u")
-        console.log(true) /*{
-    } else {
-        console.log(false)
-    }*/
-}
+// function isCharAVowel(vowel) {
+//     if (vowel === "a", "e", "i", "o", "u")
+//         console.log(true) /*{
+//     } else {
+//         console.log(false)
+//     }*/
+// }
 
-console.log('Exercise 3 Result:', isCharAVowel("a")); // i keep receiving the error that "else" was unexpected.
+// console.log('Exercise 3 Result:', isCharAVowel("a")); // i keep receiving the error that "else" was unexpected.
 
+/*
+Exercise 4: generateEmail()
+
+Create a function named generateEmail. It should take two strings: 
+a name and a domain. It should return a simple email address.
+
+Example: generateEmail('johnsmith', 'example.com') 
+should return 'johnsmith@example.com'.
+
+Complete the exercise in the space below:
+*/
+
+// function generateEmail('samantha.henesy', 'gmail.com') {
+//     // recieving "syntax error: unexpected string" so even when I console.log i don't get anything because JS wont read past line 77. 
+//     // this is the third excercise this i've had something "unexpected" and google has not been helpful.
+// }
+
+// console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
 
 
