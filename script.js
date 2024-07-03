@@ -134,9 +134,30 @@ Example: calculateTip(50, 20) should return 10.
 Complete the exercise in the space below:
 */
 
-function calculateTip (billTotal){
-    const tip = billTotal * (30 / 100);
-    return tip;
+// function calculateTip (billTotal){
+//     const tip = billTotal * (30 / 100);
+//     return tip;
+// }
+
+// console.log('Exercise 7 Result:', calculateTip(50, 30));
+
+/*
+Exercise 8: convertTemperature()
+
+Write a function named convertTemperature. 
+It takes two arguments: a temperature and a string representing the 
+scale ('C' for Celsius, 'F' for Fahrenheit). 
+Convert the temperature to the other scale.
+
+Example: convertTemperature(32, 'C') should return 89.6 (Fahrenheit).
+Example: convertTemperature(32, 'F') should return 0 (Celsius).
+
+Complete the exercise in the space below:
+*/
+
+function convertTemperature (newTemp) {
+    const cToF = (newTemp * 9/5) + 32
+    return cToF;
 }
 
-console.log('Exercise 7 Result:', calculateTip(50, 30));
+console.log('Exercise 8 Result:', convertTemperature(32, "C"));
