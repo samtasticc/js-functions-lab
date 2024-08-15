@@ -61,7 +61,7 @@ function isCharAVowel(vowel) {
     }
 }
 
-console.log('Exercise 3 Result:', isCharAVowel("a")); 
+console.log('Exercise 3 Result:', isCharAVowel("a"));
 
 /*
 Exercise 4: generateEmail()
@@ -112,7 +112,7 @@ Example: maxOfThree(17, 4, 9) should return 17.
 Complete the exercise in the space below:
 */
 
-function maxOfThree (num1, num2, num3) {
+function maxOfThree(num1, num2, num3) {
     if (num1 > num2 && num1 > num3) {
         return num1
     } else if (num2 > num1 && num2 > num3) {
@@ -148,9 +148,9 @@ Complete the exercise in the space below:
 
 
 
-function calculateTip(billAmount,tipPercentage){
+function calculateTip(billAmount, tipPercentage) {
 
-    return billAmount * (tipPercentage/100);
+    return billAmount * (tipPercentage / 100);
 
 }
 
@@ -184,37 +184,58 @@ Complete the exercise in the space below:
 
 */
 
-function convertTemperature(temperature,scale){
-    if (scale === 'C'){
-        return (temperature * 9/5) + 32;
+function convertTemperature(temperature, scale) {
+    if (scale === 'C') {
+        return (temperature * 9 / 5) + 32;
     } else if (scale === 'F') {
-        return (temperature - 32) * 5/9;
+        return (temperature - 32) * 5 / 9;
     }
 }
 
 
 
 console.log('Exercise 8 Result:', convertTemperature(32, "C"));
-console.log('Exercise 8 Result', convertTemperature(32,'F'));
+console.log('Exercise 8 Result', convertTemperature(32, 'F'));
 
 /*
 Exercise 9: basicCalculator()
 
-Create a function named basicCalculator.
-It should take three arguments: two numbers and a string representing
-an operation ('add', 'subtract', 'multiply', 'divide').
-Perform the provided operation on the two numbers.
-In operations where the order of numbers is important,
-treat the first parameter as the first operand and the
+
+
+Create a function named basicCalculator. 
+
+It should take three arguments: two numbers and a string representing 
+
+an operation ('add', 'subtract', 'multiply', 'divide'). 
+
+Perform the provided operation on the two numbers. 
+
+In operations where the order of numbers is important, 
+
+treat the first parameter as the first operand and the 
+
 second parameter as the second operand.
+
+
 
 Example: basicCalculator(10, 5, 'subtract') should return 5.
 
+
+
 Complete the exercise in the space below:
+
 */
 
-function basicCalculator (n1, n2) {
-    return n1 - n2;
-}
 
+
+function basicCalculator(num1, num2, operation) {
+    if (operation === 'add') {
+        return num1 + num2;
+    } else if (operation === 'subtract') {
+        return num1 - num2;
+    } else if (operation === 'multiply') {
+        return num1 - num2;
+    } else (operation === 'divide')
+    return (num1 / num2);
+}
 console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract"));
